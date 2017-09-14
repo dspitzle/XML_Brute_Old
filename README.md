@@ -18,7 +18,7 @@ state reporting files, which include several file specifications that have slowl
 to live up to its name, simply bulldozing its way through an XML file to develop a data structure map, instantiate that map as a 
 relational database, and then run through the file a second time to insert the data into the database.
 
-XML Brute has been verified to run on both Windows 2008 and Windows 10 running 32-bit PHP versions 5.3.29 through PHP 5.6.30.  It makes use of [Twitter Bootstrap v3.1](https://getbootstrap.com) for layout purposes.
+XML Brute has been verified to run on Windows 10 serving 32-bit PHP versions 5.3.29 through PHP 5.6.30.  It makes use of [Twitter Bootstrap v3.1](https://getbootstrap.com) for layout purposes.
 
 ### Standalone Use
 As a convenience for those who don't have PHP servers lying around, I have packaged a version of XML Brute with [PHP Desktop](../../../../cztomczak/phpdesktop)
