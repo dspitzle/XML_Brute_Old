@@ -39,4 +39,4 @@ found at http://www.weberpackaging.com/pdfs/How%20to%20get%2032_bit%20ODBC%20Dri
 
 ## TO DO
 
-There are several outstanding issues that need work to get this ready for general use and enhancement, and [projects](../projects) have been added for them.
+There are several outstanding issues that need work to get this ready for general use and enhancement, and [projects](projects) have been added for them.
