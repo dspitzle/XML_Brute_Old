@@ -1,11 +1,6 @@
 # XML_Brute
 
-This is my first effort at creating an open source project, so your patience will be appreciated.
-
-XML_Brute is
-
-
-# XML Brute
+(This is my first effort at creating an open source project, so your patience will be appreciated.)
 
 Table of contents:
 * [Introduction](#introduction)
