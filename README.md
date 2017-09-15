@@ -22,7 +22,7 @@ XML Brute has been verified to run on Windows 10 serving 32-bit PHP versions 5.3
 
 ### Standalone Use
 As a convenience for those who don't have PHP servers lying around, I have packaged a version of XML Brute with [PHP Desktop](../../../../cztomczak/phpdesktop)
-so that it can be run as a more-or-less standalone application by anybody who downloads it to their local machine.
+so that it can be run as a more-or-less standalone application by anybody who downloads it to their local machine.  [The standalone version is managed as a separate repository](../../../XML_Brute_Standalone).
 
 ## Setup
 
