@@ -5,6 +5,7 @@
 Table of contents:
 * [Introduction](#introduction)
 * [Setup](#setup)
+* [Using the Application](#using-the-application)
 * [TO DO](#to-do)
 
 ## Introduction
@@ -36,6 +37,15 @@ drivers be installed on the computer that will be running the script.  While mos
 PHP installations are still 32-bit because the 64-bit versions are experimental.  This creates a conflict because the 32-bit version of 
 PHP wants to use 32-bit ODBC drivers which are usually absent on 64-bit Windows, but they can be installed; guidance on doing so can be
 found at http://www.weberpackaging.com/pdfs/How%20to%20get%2032_bit%20ODBC%20Drivers%20on%20Win7_64bit%20PC.pdf
+
+## Using the Application
+The opening screen is simply a form containing a file download field and a dropdown for selecting the type of output file.  When the form is submitted, the application runs in three steps:
+
+1.  The entire XML file is scanned to construct a map of the implicit data structure; the map is stored as an associative array.
+1.  A relational database of the user's chosen format is instantiated, and the tables called for by the map are created within it.
+1.  The XML file is scanned a second time, storing the data it contains in the appropriate tables.
+
+The application dumps status and progress information to the browser as it goes, allowing debugging of the output, and providing the database map so the relationships between the tables are apparent.
 
 ## TO DO
 
