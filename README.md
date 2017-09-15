@@ -21,10 +21,6 @@ relational database, and then run through the file a second time to insert the d
 
 XML Brute has been verified to run on Windows 10 serving 32-bit PHP versions 5.3.29 through PHP 5.6.30.  It makes use of [Twitter Bootstrap v3.1](https://getbootstrap.com) for layout purposes.
 
-### Standalone Use
-As a convenience for those who don't have PHP servers lying around, I have packaged a version of XML Brute with [PHP Desktop](../../../../cztomczak/phpdesktop)
-so that it can be run as a more-or-less standalone application by anybody who downloads it to their local machine.  [The standalone version is managed as a separate repository](../../../XML_Brute_Standalone).
-
 ## Setup
 
 ### Storage folder
@@ -46,6 +42,13 @@ The opening screen is simply a form containing a file download field and a dropd
 1.  The XML file is scanned a second time, storing the data it contains in the appropriate tables.
 
 The application dumps status and progress information to the browser as it goes, allowing debugging of the output, and providing the database map so the relationships between the tables are apparent.
+
+### Standalone Use
+For those who don't have PHP servers lying around, I recommend downloading [PHP Desktop](../../../../cztomczak/phpdesktop).  It 
+basically sets up a single-use webserver for executing a particular PHP application.  Check the README file at the repository for links 
+to download the compiled program.  After you've downloaded PHP Desktop, test it to ensure it's running, and then copy the XML Brute 
+files into the `www` subfolder (this will overwrite PHP Desktop's default `index.php` file, so you'll get a popup verifying you want to 
+do that).  Follow the instructions above under [Setup](#setup), and then you can run PHP Desktop to get an instance of XML Brute.
 
 ## TO DO
 
