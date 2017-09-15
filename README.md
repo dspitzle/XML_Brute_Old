@@ -52,4 +52,4 @@ do that).  Follow the instructions above under [Setup](#setup), and then you can
 
 ## TO DO
 
-There are several outstanding issues that need work to get this ready for general use and enhancement, and [projects](../../projects) have been added for them.
+There are several outstanding issues that need work to get this ready for general use and enhancement, and [projects](../../projects) have been added for them.  If you're interested in getting involved, check out the [Contributor guidelines](../CONTRIBUTING.MD)
