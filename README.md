@@ -6,7 +6,7 @@ Table of contents:
 * [Introduction](#introduction)
 * [Setup](#setup)
 * [Using the Application](#using-the-application)
-* [TO DO](#to-do)
+* [Moving Forward](#moving-forward)
 
 ## Introduction
 
@@ -50,6 +50,6 @@ to download the compiled program.  After you've downloaded PHP Desktop, test it 
 files into the `www` subfolder (this will overwrite PHP Desktop's default `index.php` file, so you'll get a popup verifying you want to 
 do that).  Follow the instructions above under [Setup](#setup), and then you can run PHP Desktop to get an instance of XML Brute.
 
-## TO DO
-
-There are several outstanding issues that need work to get this ready for general use and enhancement, and [projects](../../projects) have been added for them.  If you're interested in getting involved, check out the [Contributor guidelines](../CONTRIBUTING.MD)
+## Moving Forward
+The near-term development goal for XML Brute is to get the codebase cleaned up enough to enable easy integration of more output formats.
+There are several outstanding issues that need work to reach that point, and [projects](../../projects) have been added for them.  If you're interested in getting involved, check out the [Contributor guidelines](../CONTRIBUTING.MD).
