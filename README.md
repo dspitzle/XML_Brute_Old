@@ -23,9 +23,9 @@ XML Brute has been verified to run on Windows 10 serving 32-bit PHP versions 5.3
 
 ## Setup
 
-### Storage folder
-Permissions must be set on the Storage folder to allow write access, as the script must be able to add both imported XML files and newly 
-created database files to its subfolders
+### Storage Subfolder
+The `IUSR` user account must be granted write access permission to the `storage` subfolder, as the script must be able to add both 
+imported XML files and newly created database files to its subfolders.
 
 ### MS Access ODBC Drivers
 At the moment XML Brute is limited to producing MS Access 2010 .accdb database files as output.  This requires that the appropriate ODBC 
