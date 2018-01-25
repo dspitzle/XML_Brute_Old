@@ -25,23 +25,23 @@ XML Brute has been verified to run on Windows 10 serving 32-bit PHP versions 5.3
 ## Setup
 
 ### Settings in php.ini
-Working with larger XML files will probably require bumping up several environment values in php.ini, specifically 
-* max_execution_time (suggested value 300, which is 5 minutes)
-* memory_limit (suggested value 512M)
-* upload_max_filesize (depends on files you're working with, suggested value 10M)
-* post_max_size (larger than upload_max_filesize, suggested value 11M)
+Working with larger XML files will probably require bumping up several environment values in `php.ini`, specifically 
+* `max_execution_time` (suggested value 300, which is 5 minutes)
+* `memory_limit` (suggested value 512M)
+* `upload_max_filesize` (depends on files you're working with, suggested value 10M)
+* `post_max_size` (larger than upload_max_filesize, suggested value 11M)
 
 ### Select available database formats in config.ini.php
-The config.ini.php file contains a list of output formats (some which may still awaiting development), using standard .ini file
+The `config.ini.php` file contains a list of output formats (some which may still awaiting development), using standard `.ini` file
 syntax:  add a semicolon in front of one of the options to disable it, remove the semicolon to re-enable it.  In addition, after
-enabling your preferred output types, be sure to activate the corresponding PDO libraries in php.ini where appropriate.
+enabling your preferred output types, be sure to activate the corresponding PDO libraries in `php.ini` where appropriate.
 
 ### Storage Subfolder
 When hosting XML_Brute on Windows machines, the `IUSR` user account must be granted write access permission to the `storage` subfolder,
 as the script must be able to add both imported XML files and newly created database files to its subfolders.
 
 ### MS Access ODBC Drivers
-At the moment XML Brute is limited to producing MS Access 2010 .accdb database files as output.  This requires that the appropriate ODBC 
+At the moment XML Brute is limited to producing MS Access 2010 `.accdb` database files as output.  This requires that the appropriate ODBC 
 drivers be installed on the computer that will be running the script.  While most modern Windows machines are running a 64-bit OS, many
 PHP installations are still 32-bit because the 64-bit versions are experimental.  This creates a conflict because the 32-bit version of 
 PHP wants to use 32-bit ODBC drivers which are usually absent on 64-bit Windows, but they can be installed; guidance on doing so can be
