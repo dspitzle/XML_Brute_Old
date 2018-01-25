@@ -52,4 +52,4 @@ do that).  Follow the instructions above under [Setup](#setup), and then you can
 
 ## Moving Forward
 The near-term development goal for XML Brute is to get the codebase cleaned up enough to enable easy integration of more output formats.
-There are several outstanding issues that need work to reach that point, and [projects](../../projects) have been added for them.  If you're interested in getting involved, check out the [Contributor guidelines](CONTRIBUTING.MD).
+There are several outstanding issues that need work to reach that point, and [projects](../../projects) have been added for them.  If you're interested in getting involved, check out the [Contributor guidelines](CONTRIBUTING.md).
