@@ -4,10 +4,10 @@
 ;/*
 
 [Database formats]
-DbFormats[Accdb] = "MS Access 2010-13"
+DbFormats[Accdb32] = "MS Access 2010-13 (32-bit driver)"
 ;DbFormats[SQLite] = "SQLite"
 
-DbFormatsDefault = Accdb
+DbFormatsDefault = Accdb32
 
 
 ;*/

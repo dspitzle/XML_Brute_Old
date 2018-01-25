@@ -6,7 +6,7 @@ require_once("Builders\Builder.php");
 
 use XML_Brute\Builders\Builder;
 
-class AccdbBuilder extends Builder{
+class Accdb32Builder extends Builder{
 
 	private $accessExt = ".accdb";
 	private $targetLocation = "";

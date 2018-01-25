@@ -13,9 +13,6 @@ use XML_Brute\Helpers\FileHelper;
 
 $GLOBALS["multi"] = array();
 
-
-
-
 //Load the source XML file as a SimpleXML object
 $fileInfo = FileHelper::get_Instance();
 $xml = $fileInfo->importFile();
