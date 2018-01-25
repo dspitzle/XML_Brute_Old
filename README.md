@@ -32,9 +32,9 @@ Working with larger XML files will probably require bumping up several environme
 * post_max_size (larger than upload_max_filesize, suggested value 11M)
 
 ### Select available database formats in config.ini.php
-The config.ini.php file contains a list of output formats (some which may still awaiting development), using standard .ini file syntax:  
-add a semicolon in front of one of the options to disable it, remove the semicolon to re-enable it.  In addition, after enabling your 
-preferred output types, be sure to activate the corresponding PDO libraries in php.ini where appropriate
+The config.ini.php file contains a list of output formats (some which may still awaiting development), using standard .ini file
+syntax:  add a semicolon in front of one of the options to disable it, remove the semicolon to re-enable it.  In addition, after
+enabling your preferred output types, be sure to activate the corresponding PDO libraries in php.ini where appropriate.
 
 ### Storage Subfolder
 When hosting XML_Brute on Windows machines, the `IUSR` user account must be granted write access permission to the `storage` subfolder,
