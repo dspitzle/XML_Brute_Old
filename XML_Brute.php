@@ -11,6 +11,7 @@ use XML_Brute\Helpers\FileHelper;
 // License: BSD 3-Clause License
 // Website: https://github.com/dspitzle/XML_Brute
 
+//Initialize global variable for tracking tables for storing 1-to-many subrecords
 $GLOBALS["multi"] = array();
 
 //Load the source XML file as a SimpleXML object

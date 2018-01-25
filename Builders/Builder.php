@@ -16,6 +16,8 @@ abstract class Builder{
 	
 	abstract function build();
 
+	abstract generateDownloadLink();
+	
 	abstract function populate(\SimpleXMLElement $xml);
 	
 }

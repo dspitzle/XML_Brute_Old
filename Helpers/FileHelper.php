@@ -60,6 +60,4 @@ class FileHelper{
 		move_uploaded_file( $this->tmp_name, $this->targetFile );
 		return simplexml_load_file( $this->targetFile );
 	}
-	
-	
 }
