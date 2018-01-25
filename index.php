@@ -1,3 +1,8 @@
+<?php
+
+	$config = parse_ini_file("config.ini.php");
+
+?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -23,7 +28,12 @@
 						<label for="export_format" class="col-sm-2 control-label required">Convert to:</label>
 						<div class='col-sm-4'>
 							<select class="form-control" autofocus="autofocus" id="export_format" required="required" name="export_format">
-								<option value="accdb" selected="selected">MS Access 2010-13</option>
+<?php
+foreach ($config["DbFormats"] as $key=>$label){
+	$selected = ($key == $config["DbFormatsDefault"]) ? " selected=\"selected\"" : "";
+	echo "\t\t\t\t\t\t\t\t<option value=\"".$key."\"".$selected.">".$label."</option>\r\n";
+}
+?>
 							</select>
 						</div>
 					</div>
