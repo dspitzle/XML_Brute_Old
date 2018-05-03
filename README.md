@@ -2,12 +2,6 @@
 
 <h4>A PHP application for converting arbitrary XML files into relational databases</h4>
 
-Table of contents:
-* [Introduction](#introduction)
-* [Setup](#setup)
-* [Using the Application](#using-the-application)
-* [Moving Forward](#moving-forward)
-
 ## Introduction
 
 XML Brute is a PHP application that will accept an arbitrary XML file and generate a relational database as output.  At this stage 
