@@ -1,6 +1,6 @@
 # XML_Brute
 
-(This is my first effort at creating an open source project, so your patience will be appreciated.)
+__A PHP application for converting arbitrary XML files into relational databases__
 
 Table of contents:
 * [Introduction](#introduction)
