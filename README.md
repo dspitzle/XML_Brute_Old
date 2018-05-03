@@ -1,6 +1,6 @@
 # XML_Brute
 
-__A PHP application for converting arbitrary XML files into relational databases__
+<h4>A PHP application for converting arbitrary XML files into relational databases</h4>
 
 Table of contents:
 * [Introduction](#introduction)
